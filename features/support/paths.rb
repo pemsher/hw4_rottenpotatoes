@@ -21,6 +21,12 @@ module NavigationHelpers
     #
     #   when /^(.*)'s profile page$/i
     #     user_profile_path(User.find_by_login($1))
+    when /^the edit page for "Alien"/
+      '/movies/3/edit'
+    when /^the details page for "Star Wars"/
+      '/movies/1'
+    when /^the Similar Movies page for "Star Wars"/
+      '/movies/similar/1'
 
     else
       begin
