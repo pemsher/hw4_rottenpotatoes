@@ -27,6 +27,8 @@ module NavigationHelpers
       '/movies/1'
     when /^the Similar Movies page for "Star Wars"/
       '/movies/similar/1'
+    when /^the details page for "Alien"/
+      '/movies/3'
 
     else
       begin
